@@ -1,19 +1,55 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: O fundacji
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Podejmujemy wspólnie z przedstawicielami świata nauki, kultury, biznesu i polityki działania, których celem jest znalezienie wizji tożsamości polskiej i współczesnego patriotyzmu w nowym wieku, podkreślenie korelacji pomiędzy planami życiowymi poszczególnych jednostek, a projektami wzmacniającymi pozycję państwa i społeczeństwa, uwypuklenie obszaru, który w życiu wielu ludzi jest ważny, a zarazem wspólny z innymi. Korzystając z dorobku naszych przodków warto na nowo wyrazić aspiracje i marzenia współczesnych pokoleń w sposób przystępny i możliwy do identyfikacji dla ogółu społeczeństwa. 
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Mamy nadzieję zachęcić jak największe grono wizjonerów do artykułowania własnych pomysłów, tak by stworzyć jak najciekawszy, atrakcyjny projekt, znajdujący bardzo szerokie poparcie społeczne, stający się częścią myśli zbiorowej. 
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+W ramach naszych działań aktualnie skupiamy się na trzech projektach:
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+* PATRIOTKA NOC 
+* NIEPODLEGŁOŚCI 10.11
+*  REPRYWATYZACJA 
+
+Trzy kolejne są w fazie przygotowawczej:
+
+* TRZY ZDANIA O POLSCE
+* JAN JAŹWIŃSKI 
+* KONWENTYKIEL POLSKICH LUTERKÓW z okazji 500-lecia wystąpienie Marcina Lutra
+
+
+
+**Dane Fundacji: **
+
+Numer w Krajowym Rejestrze Sądowym KRS: 0000441173
+
+Nr NIP: 957-106-70-83 nr REGON: 221789396
+
+Adres siedziby: 80-261 Gdańsk ul.: Jesionowa 11/7
+
+
+
+Numer rachunku bankowego: 
+
+18 1240 1242 1111 0010 4875 8245 nazwa banku: 
+
+Bank Polska Kasa Opieki Spółka Akcyjna
+
+
+
+**Zarząd Fundacji:**
+
+Tomasz Luterek – Prezes
+
+Małgorzata Koprowska
+
+Rada Fundacji:
+
+Marcin Jabłonowski – Przewodniczący
+
+Artur Kotulski
+
+Bartosz Luterek
