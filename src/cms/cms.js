@@ -5,7 +5,6 @@ import CelePagePreview from './preview-templates/CelePagePreview'
 import KontaktPagePreview from './preview-templates/KontaktPagePreview'
 
 CMS.registerPreviewStyle('/styles.css')
-CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('ofundacji', OfundacjiPagePreview)
 CMS.registerPreviewTemplate('projket', ProjektPostPreview)
 CMS.registerPreviewTemplate('cele', ProjektPostPreview)
