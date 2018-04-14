@@ -47,7 +47,7 @@ OfundacjiPage.propTypes = {
 
 export default OfundacjiPage
 
-export const OfundacjiPageQuery = graphql`
+export const ofundacjiPageQuery = graphql`
   query OfundacjiPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html

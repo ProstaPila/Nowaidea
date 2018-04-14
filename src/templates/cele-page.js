@@ -47,7 +47,7 @@ CelePage.propTypes = {
 
 export default CelePage
 
-export const CelePageQuery = graphql`
+export const celePageQuery = graphql`
   query CelePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
