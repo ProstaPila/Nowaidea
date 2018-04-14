@@ -1,27 +1,51 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: Noc Niepodległości
 date: 2017-01-04T15:04:10.000Z
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+description: |
+  Zapraszamy do wspólnej zabawy z okazji Święta Niepodległości!
 tags:
-  - brewing
-  - chemex
+  - Noc Niepodległosci
+  - Świeto
 ---
-![chemex](/img/chemex.jpg)
+Pragniemy aby w tę noc podobnie jak w Sylwestra, gdy zaczynamy świętować Nowy Rok, rozpocząć obchodzenie Święta Niepodległości. Chcemy skorzystać z tego, że możemy trochę mocniej zaimprezować gdyż 11 listopada jest dniem ustawowo wolnym od pracy.
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
 
-## The little secrets of Chemex brewing
+Nasze święto jest totalnie wyluzowane i dalekie od oficjalnej spiny. Chcemy odwoływać się do zupełnie naturalnego poczucia dumy i chęci okazania swojego przywiązania do naszego kraju. Przy czym warto podkreślać, iż można to czynić w sposób radosny, otwarty, wolny od agresji, bazujący na naszych wspaniałych cechach; poczuciu humoru i słowiańskiej skłonności do uciech i zabaw.
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+Nasza akcja nastawiona jest na wciągnięcie do wspólnej zabawy możliwie jak największej liczby Polaków i wszystkich, którzy wspólnie z nami chcieliby obchodzić Nasze Święto.
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+Noc Niepodległości z 10 na 11 listopada ma być ogólnopolską, powszechną imprezą z okazji Święta Niepodległości.
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+Chcemy pokazać, że ludzie pogodni, wyluzowani mogą być najzwyczajniej w świecie dumni z tego, że pochodzą z Kraju nad Wisłą, a imprezowanie może być jedną z narodowych cnót sprzyjających integracji i budowaniu wspólnoty.
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+Pragniemy aby Święto Niepodległości kojarzyło się z dumą, aby patriotyzm nabrał nowego znaczenia, a młodzi Polacy chcieli świętować to, że żyją w wolnej, nowoczesnej Ojczyźnie
+
+Skłonność do zabaw jest jedną z naszych najfajniejszych cech narodowych, którą warto celebrować, pielęgnować i szukać sposobności dla jej utrwalenia
+
+Inicjatywy
+
+
+
+Jednym z najpopularniejszych i najbardziej naturalnych sposobów świętowania jest zabawa, a jak się bawić to nie indywidualnie, parafrazując słowa piosenki Jeremiego Przybory, wespół w zespół! Dlatego zachęcamy polskie zespoły i wykonawców, żeby w tę noc rozkręcali ogólnopolską imprezę.
+
+W klubach, restauracjach, mieszkaniach zorganizujmy imprezy, spotkania, domówki z okazji Nocy Niepodległości.
+
+Do akcji wciągamy kina, opery, filharmonie (polski repertuar) muzea i inne ośrodki kulturalne.
+
+Wspólnym elementem ubioru uczestników niech będzie biało-czerwony detal; wstążka, kotylion, itp.
+
+W trakcie imprez podstawę diety stanowi „Patriotka” – biało-czerwone ciastko (np. czerwona galaretka z bitą śmietaną) i pijemy biało-czerwone napoje.
+
+W tę Noc gramy głównie polską muzykę.
+
+Centralna impreza odbędzie się w tym roku w jednym z warszawskich klubów, poprzedzi ją koncert polskich wykonawców. Chcemy aby było to rokrocznie inne miejsce. W zeszłym roku imprezowaliśmy w Sopocie.
+
+W trakcie centralnej imprezy nastąpi ogłoszenie zwycięzców konkursu na „Patriotkę” – biało-czerwone ciastko.
+
+Jesteśmy głęboko przekonani, że Noc Niepodległości stanie się jednym z najważniejszych imprezowych świąt w kalendarzu, dorównującym popularnością Andrzejkom czy Nocy Świętojańskiej. Sylwestra na razie chyba nie przebijemy ale mamy podobnie jak i on jeden mega atut: następny dzień jest ustawowo wolny od pracy!
+
+Hulaj dusza!
+
+www.nocniepodleglosci.pl
