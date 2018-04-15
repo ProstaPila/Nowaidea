@@ -6,18 +6,16 @@ import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
 
-export const OfundacjiPageTemplate = ({ title, content, contentComponent, slug, postNode }) => {
+export const OfundacjiPageTemplate = ({ title, content, contentComponent, slug, postNode, thumbnail, description }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
     <SEO postPath={slug} postNode={postNode} postSEO />
-    <section className="hero is-info is-small">
+    <section className="hero is-info is-small ">
   <div className="hero-body">
-    <div className="container">
-      <h1 className="title">
-        {title}
-      </h1>
+    <div className="full-width-image-container">
+      <img src={thumbnail} alt={description}/>
           </div>
   </div>
 </section>
@@ -55,6 +53,8 @@ const OfundacjiPage = ({ data }) => {
       content={post.html}
       postNode={data.markdownRemark}
       slug={post.fields.slug}
+      thumbnail={post.frontmatter.thumbnail}
+      description={post.frontmatter.description}
       
     />
   )
