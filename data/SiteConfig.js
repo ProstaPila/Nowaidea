@@ -1,9 +1,9 @@
 module.exports = {
-  blogPostDir: "sample-posts", // The name of directory that contains your posts.
+  blogPostDir: "projekt", // The name of directory that contains your posts.
   siteTitle: "Fundacja Nowa Idea | racjonalni idealiści ", // Site title.
   siteTitleAlt: "Fundacja Nowa Idea | racjonalni idealiści ", // Alternative site title for SEO.
-  siteLogo: "/img/ideanowa.png", // Logo used for SEO and manifest.
-  siteUrl: "https://ideanowa.pl", // Domain of your website without pathPrefix.
+  siteLogo: "static/img/logosmall.png", // Logo used for SEO and manifest.
+  siteUrl: "https://ideanowa.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Fundacja Idea Nowa", // Website description used for RSS feeds/meta description tag.
   postDefaultCategoryID: "Social", // Default category for posts.

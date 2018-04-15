@@ -28,13 +28,16 @@ collections:
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "ofundacji-page"}
         - {label: "Title", name: "title", widget: "string"}
+        - {labal: "Thumbnail", name: "thumbnail", widget: "image"}
         - {label: "Body", name: "body", widget: "markdown"}
+        
       - file: "src/pages/kontakt/index.md"
         label: "Kontakt"
         name: "Kontakt"
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "kontakt-page"}
         - {label: "Title", name: "title", widget: "string"}
+        - {labal: "Thumbnail", name: "thumbnail", widget: "image"}
         - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/cele/index.md"
         label: "Cele"
@@ -42,5 +45,6 @@ collections:
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cele-page"}
         - {label: "Title", name: "title", widget: "string"}
+        - {labal: "Thumbnail", name: "thumbnail", widget: "image"}
         - {label: "Body", name: "body", widget: "markdown"}
         
