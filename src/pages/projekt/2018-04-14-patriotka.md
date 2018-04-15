@@ -2,6 +2,7 @@
 templateKey: projekt-post
 title: PATRIOTKA
 date: 2017-01-04T15:04:10.000Z
+thumbnail: /img/patriotka4.jpg
 description: |
 
   Chcemy wypromować ciastko o nazwie Patriotka®
