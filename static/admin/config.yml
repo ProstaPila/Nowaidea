@@ -37,8 +37,8 @@ collections:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/cele/index.md"
-        label: "Ofundacji"
-        name: "ofundacji"
+        label: "Cele"
+        name: "Cele"
         fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cele-page"}
         - {label: "Title", name: "title", widget: "string"}
