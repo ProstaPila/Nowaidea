@@ -1,16 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo from '../img/ideanowa.png'
+import logo from '../img/logosmall.png'
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-          <figure className="logoicon">
-            <img src={logo} alt="Fundacja Idea Nowa"  />
-          </figure>
-        </Link>
+        
       </div>
       <div className="navbar-start">
       <Link className="navbar-item" to="/">

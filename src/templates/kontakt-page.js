@@ -1,11 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Content, { HTMLContent } from '../components/Content'
+import { kebabCase } from 'lodash'
+import Helmet from 'react-helmet'
+import SEO from '../components/SEO/seo';
+import config from "../../data/SiteConfig";
 
-export const KontaktPageTemplate = ({ title, content, contentComponent }) => {
+
+export const KontaktPageTemplate = ({ title, content, contentComponent, slug, postNode }) => {
   const PageContent = contentComponent || Content
 
   return (
+    <div>
+    <SEO postPath={slug} postNode={postNode} postSEO />
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
@@ -20,6 +27,7 @@ export const KontaktPageTemplate = ({ title, content, contentComponent }) => {
         </div>
       </div>
     </section>
+    </div>
   )
 }
 
@@ -27,6 +35,8 @@ KontaktPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
+  slug: PropTypes.string,
+  excerpt: PropTypes.string
 }
 
 const KontaktPage = ({ data }) => {
@@ -37,6 +47,8 @@ const KontaktPage = ({ data }) => {
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
+      postNode={data.markdownRemark}
+      slug={post.fields.slug}
     />
   )
 }
@@ -50,9 +62,15 @@ export default KontaktPage
 export const KontaktPageQuery = graphql`
   query KontaktPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
+    html
+    excerpt
+    fields {
+      slug
+    }
       frontmatter {
         title
+        
+        
       }
     }
   }
