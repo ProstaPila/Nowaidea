@@ -9,20 +9,19 @@ export default class IndexPage extends React.Component {
 
     return (
       <div>
-      <section className="hero">
-        <div className="container">
-          <div className="content">
-          <div className="columns">
-           <div className="column">
-            <div className="biglogo">
+      
+
+      <section className="hero is-success is-fullheight myhero">
+      <div className="hero-body">
+    <div className="container has-text-centered">
+    <div className="biglogo">
               <div className="fund">Fundacja:</div>
               <div className="idea">IDEA<br></br>NOWA</div>
               <div className="catchphrase">Idealni Racjonaliści</div>
             </div>
-           </div>
-          </div>
-         </div>
-        </div>
+    </div>
+  </div> 
+           
       
       </section>
       <section className="section">
@@ -38,6 +37,7 @@ export default class IndexPage extends React.Component {
           {posts
             .filter(post => post.node.frontmatter.templateKey === 'projekt-post')
             .map(({ node: post }) => (
+
               <div
                 className="content"
                 style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
@@ -48,6 +48,7 @@ export default class IndexPage extends React.Component {
                     {post.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
+                  <img src={post.frontmatter.thumbnail} alt={post.frontmatter.description} />
                   <small>{post.frontmatter.date}</small>
                 </p>
                 <p>
@@ -155,8 +156,10 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            thumbnail
+            description
             templateKey
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMMM DD, YYYY", locale: "pl")
           }
         }
       }

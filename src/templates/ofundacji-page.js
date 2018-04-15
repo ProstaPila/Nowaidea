@@ -12,14 +12,21 @@ export const OfundacjiPageTemplate = ({ title, content, contentComponent, slug, 
   return (
     <div>
     <SEO postPath={slug} postNode={postNode} postSEO />
+    <section className="hero is-info is-small">
+  <div className="hero-body">
+    <div className="container">
+      <h1 className="title">
+        {title}
+      </h1>
+          </div>
+  </div>
+</section>
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
+              
               <PageContent className="content" content={content} />
             </div>
           </div>
@@ -48,6 +55,7 @@ const OfundacjiPage = ({ data }) => {
       content={post.html}
       postNode={data.markdownRemark}
       slug={post.fields.slug}
+      
     />
   )
 }
