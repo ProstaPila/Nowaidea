@@ -7,7 +7,7 @@ const OfundacjiPagePreview = ({ entry, widgetFor }) => (
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
-    postPath={entry.getIn(['data', 'title'])}
+    postPath={entry.getIn(['data', 'slug'])}
     cover={entry.getIn(['data', 'cover' ])}
     postNode={{
       frontmatter: {
@@ -22,7 +22,7 @@ const OfundacjiPagePreview = ({ entry, widgetFor }) => (
   />
 )
 
-OfudndacjiPagePreview.propTypes = {
+OfundacjiPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
