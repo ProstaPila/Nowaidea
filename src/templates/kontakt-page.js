@@ -69,6 +69,8 @@ export const KontaktPageQuery = graphql`
     }
       frontmatter {
         title
+        thumbnail
+        description
         
         
       }

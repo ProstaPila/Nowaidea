@@ -22,7 +22,7 @@ const OfundacjiPagePreview = ({ entry, widgetFor }) => (
   />
 )
 
-CelePagePreview.propTypes = {
+OfudndacjiPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),

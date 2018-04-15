@@ -69,6 +69,8 @@ export const celePageQuery = graphql`
     }
       frontmatter {
         title
+        thumbnail
+        description
         
         
       }

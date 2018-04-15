@@ -68,6 +68,8 @@ export const ofundacjiPageQuery = graphql`
     }
       frontmatter {
         title
+        thumbnail
+        description
         
         
       }
