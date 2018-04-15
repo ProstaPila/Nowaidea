@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
 import logo from '../img/ideanowa.png'
 
 const Navbar = () => (
@@ -10,7 +9,7 @@ const Navbar = () => (
         <Link to="/" className="navbar-item">
           <figure className="image">
             <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>
+          </figure>s
         </Link>
       </div>
       <div className="navbar-start">
