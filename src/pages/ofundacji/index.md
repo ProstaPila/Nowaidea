@@ -20,31 +20,24 @@ Trzy kolejne są w fazie przygotowawczej:
 * JAN JAŹWIŃSKI 
 * KONWENTYKIEL POLSKICH LUTERKÓW z okazji 500-lecia wystąpienie Marcina Lutra
 
-**Dane Fundacji: **
+**Dane Fundacji:**  
+Numer w Krajowym Rejestrze Sądowym KRS: 0000441173  
+Nr NIP: 957-106-70-83  
+nr REGON: 221789396  
+Adres siedziby:  
+ul.: Jesionowa 11/7
+80-261 Gdańsk   
 
-Numer w Krajowym Rejestrze Sądowym KRS: 0000441173
 
-Nr NIP: 957-106-70-83 nr REGON: 221789396
-
-Adres siedziby: 80-261 Gdańsk ul.: Jesionowa 11/7
-
-Numer rachunku bankowego: 
-
-18 1240 1242 1111 0010 4875 8245 nazwa banku: 
-
+**Numer rachunku bankowego:**  
+18 1240 1242 1111 0010 4875 8245  
 Bank Polska Kasa Opieki Spółka Akcyjna
 
-**Zarząd Fundacji:
-**
-
-Tomasz Luterek – Prezes
-
+**Zarząd Fundacji:**  
+Tomasz Luterek – Prezes  
 Małgorzata Koprowska
 
-Rada Fundacji:
-
-Marcin Jabłonowski – Przewodniczący
-
-Artur Kotulski
-
+**Rada Fundacji:**  
+Marcin Jabłonowski – Przewodniczący  
+Artur Kotulski  
 Bartosz Luterek

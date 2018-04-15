@@ -7,9 +7,9 @@ const Navbar = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>s
+          <figure className="logoicon">
+            <img src={logo} alt="Fundacja Idea Nowa"  />
+          </figure>
         </Link>
       </div>
       <div className="navbar-start">

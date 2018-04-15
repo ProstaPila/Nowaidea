@@ -1,9 +1,17 @@
+@import "~bulma/sass/utilities/initial-variables"
+
+
 // Config vars
+$kaldi-red: #FD461E
+$kaldi-red-invert: #fff
 
+$primary: $kaldi-red
+$primary-invert: $kaldi-red-invert
 
-@import "~bulma/sass/utilities/initial-variables";
+.logoicon
+  overflow: visible
 
-
+   
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -35,5 +43,44 @@
 
 .margin-top-0
   margin-top: 0 !important
+
+.hero
+   margin-top: 
+   min-height: 900px
+   background: url('../img/background.jpg')
+   background-size: cover
+
+@media (min-width: 986px) 
+
+  .biglogo 
+    height: calc(59vw * 16/9 - 50vw)
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    font-family: 'Roboto', sans-serif
+
+    .idea
+      font-size: 6.4em 
+      color: whitesmoke
+      font-weight: bold
+      
+
+    .catchphrase 
+      font-size: 2em
+      color: white
+
+    .fund 
+      font-size: 1.4em
+      color: whitesmoke
+          
+
+
+
+
+
+
+
+
 
 @import "~bulma"
