@@ -2,6 +2,12 @@
 templateKey: cele-page
 title: Cele
 thumbnail: /img/logosmall.png
+description: >-
+  Celem Fundacji jest popieranie wszechstronnego rozwoju społeczeństwa
+  polskiego, a zwłaszcza działalności społecznej, informacyjnej, kulturalnej,
+  naukowej i oświatowej na rzecz rozwoju rynku, demokracji i społeczeństwa
+  obywatelskiego w Polsce oraz zbliżenia narodów i państw Europy Środkowej i
+  Wschodniej.
 ---
 **Celem Fundacji jest popieranie wszechstronnego rozwoju społeczeństwa polskiego, a zwłaszcza działalności społecznej, informacyjnej, kulturalnej, naukowej i oświatowej na rzecz rozwoju rynku, demokracji i społeczeństwa obywatelskiego w Polsce oraz zbliżenia narodów i państw Europy Środkowej i Wschodniej.**
 
