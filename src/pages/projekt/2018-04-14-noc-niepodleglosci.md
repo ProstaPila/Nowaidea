@@ -8,7 +8,7 @@ tags:
   - Noc Niepodległosci
   - Świeto
 ---
-Pragniemy aby w tę noc podobnie jak w Sylwestra, gdy zaczynamy świętować Nowy Rok, rozpocząć obchodzenie Święta Niepodległości. Chcemy skorzystać z tego, że możemy trochę mocniej zaimprezować gdyż 11 listopada jest dniem ustawowo wolnym od pracy.
+**Pragniemy aby w tę noc podobnie jak w Sylwestra, gdy zaczynamy świętować Nowy Rok, rozpocząć obchodzenie Święta Niepodległości. Chcemy skorzystać z tego, że możemy trochę mocniej zaimprezować gdyż 11 listopada jest dniem ustawowo wolnym od pracy.**
 
 
 

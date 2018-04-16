@@ -4,6 +4,7 @@ import logo from '../img/logosmall.png'
 
 const Navbar = () => (
   <nav className='navbar is-fixed-top' aria-label='main navigation'>
+    <div className="container">
     
       <div className="navbar-brand">
       <button className='button navbar-burger' data-target='navMenu'>
@@ -35,7 +36,7 @@ const Navbar = () => (
       </div>
       <div className="navbar-end">
       </div>
-       
+       </div>
       </div>
     
   </nav>

@@ -8,7 +8,7 @@ tags:
   - Patriotka
   - Ciastko
 ---
-W 2018 r. przypada setna rocznica Odzyskania Niepodległości pragniemy aby Patriotka® stała się nieodłącznym bardzo pozytywnym symbolem wszystkich uroczystości związanych z tą wyjątkową rocznicą
+**W 2018 r. przypada setna rocznica Odzyskania Niepodległości pragniemy aby Patriotka® stała się nieodłącznym bardzo pozytywnym symbolem wszystkich uroczystości związanych z tą wyjątkową rocznicą**
 
 Pragniemy aby podobnie jak pączek w tłusty czwartek , stała się ona słodkim symbolem Święta Niepodległości, Trzeciego Maja i innych świąt o charakterze patriotycznym
 

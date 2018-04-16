@@ -34,7 +34,9 @@ export const ProjektPostTemplate = ({
            <div className="column"> 
             <div className="mytitle">
               {title}
+              
               </div>
+              <p>{description}</p>
           </div>
   </div>
   </div>
@@ -47,7 +49,7 @@ export const ProjektPostTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
           
-            <p>{description}</p>
+            
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
