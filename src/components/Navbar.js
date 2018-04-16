@@ -1,20 +1,37 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import logo from '../img/logosmall.png'
 
-const Navbar = () => (
+class Navbar extends Component {
+ 
+  state= { active: false};
+
+    
+  toggleNav() {
+    this.setState({active: !this.state.active});
+} 
+  
+
+  render(){
+  
+    let css = " ";
+    if(this.state.active) {
+      css ="is-active"
+    }
+
+  return(
   <nav className='navbar is-fixed-top' aria-label='main navigation'>
     <div className="container">
     
       <div className="navbar-brand">
-      <button className='button navbar-burger' data-target='navMenu'>
+      <button className={['button navbar-burger', css].join(" ")} data-target='navMenu' onClick={this.toggleNav.bind(this)}>
           <span />
           <span />
           <span />
         </button>
         
       </div>
-      <div className='navbar-menu' id='navMenu'>
+      <div className={['navbar-menu', css].join(" ")} id='navMenu'>
       <div className="navbar-start">
       
        
@@ -40,6 +57,7 @@ const Navbar = () => (
       </div>
     
   </nav>
-)
+);
+}};
 
 export default Navbar
