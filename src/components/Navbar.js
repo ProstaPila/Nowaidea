@@ -10,7 +10,9 @@ class Navbar extends Component {
   toggleNav() {
     this.setState({active: !this.state.active});
 } 
-  
+  closeNav(){
+    this.setState({active:false})
+  }
 
   render(){
   
@@ -32,22 +34,22 @@ class Navbar extends Component {
         
       </div>
       <div className={['navbar-menu', css].join(" ")} id='navMenu'>
-      <div className="navbar-start">
+      <div className={['navbar-start', css].join(" ")}>
       
        
-      <Link className="navbar-item" to="/">
+      <Link className="navbar-item" to="/"  onClick={this.closeNav.bind(this)}>
           Strona Głowna
         </Link>
-      <Link className="navbar-item" to="/projekty">
+      <Link className="navbar-item" to="/projekty"  onClick={this.closeNav.bind(this)}>
           Projekty
         </Link>
-        <Link className="navbar-item" to="/ofundacji">
+        <Link className="navbar-item" to="/ofundacji"  onClick={this.closeNav.bind(this)} >
           O fundacji
         </Link>
-        <Link className="navbar-item" to="/cele">
+        <Link className="navbar-item" to="/cele"  onClick={this.closeNav.bind(this)} >
           Cele
         </Link>
-        <Link className="navbar-item" to="/kontakt">
+        <Link className="navbar-item" to="/kontakt"  onClick={this.closeNav.bind(this)}>
           Kontakt
         </Link>
       </div>

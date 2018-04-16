@@ -9,7 +9,6 @@ const OfundacjiPagePreview = ({ entry, widgetFor }) => (
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
     postPath={entry.getIn(['data', 'slug'])}
     description={entry.getIn(['data', 'description'])}
-    helmet={<Helmet title="Fundacja"/>}
     postNode={{
       frontmatter: {
         description: entry.getIn(['data', 'description']),
