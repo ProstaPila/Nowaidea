@@ -107,8 +107,7 @@ export default class IndexPage extends React.Component {
             .filter(post => post.node.frontmatter.templateKey === 'cele-page')
             .map(({ node: post}) => (
               <div
-                className="content"
-                style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
+                className="content mycontent"
                 key={post.id}
               >
                 <p>
@@ -136,8 +135,7 @@ export default class IndexPage extends React.Component {
 .filter(post => post.node.frontmatter.templateKey === 'ofundacji-page')
 .map(({ node: post }) => (
  <div
-   className="content"
-   style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
+   className="content mycontent"
    key={post.id}
  >
    <p>

@@ -3,11 +3,13 @@
 
 
 // Config vars
-$kaldi-red: #FD461E
-$kaldi-red-invert: #fff
+$spaceout-blue: #363636
+$spaceout-invert: #fff
+$spaceout-border: rgba(70, 87, 152, 0.3)
+$footer: #006691
+$primary: $spaceout-blue
+$primary-invert: $spaceout-invert
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
 
 .logoicon
   overflow: visible
@@ -64,6 +66,8 @@ $primary-invert: $kaldi-red-invert
 .alice-carousel 
    padding: 15px 
 
+.has-text-primary
+  font-weight: bold
 
 .content .taglist
   list-style: none
@@ -108,17 +112,46 @@ $primary-invert: $kaldi-red-invert
   font-size: 5em
   color: whitesmoke
 
-@media (min-width: 986px) 
+footer
+  padding: 4em 0
+  background-color: $footer
+  .logofoot
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-end
+  .menu
+    display: flex
+    flex-direction: column
+
+  a
+   color: whitesmoke
+   font-size: 1em
+  
+  p
+    color: whitesmoke
+    font-size: 0.8em
+  
+
+@media (min-width: 986px)
+  .mycontent
+    padding: 2em 4em
+    border: 1px solid $spaceout-border
 
   .biglogo 
-    
-    
+    margin: auto
+    display: flex
+    flex-direction: column
+    align-items: start
     font-family: 'Roboto', sans-serif
+    text-align: left
 
     .idea
       font-size: 6.4em 
       color: whitesmoke
       font-weight: bold
+
+    
       
 
     .catchphrase 
@@ -127,6 +160,29 @@ $primary-invert: $kaldi-red-invert
 
     .fund 
       font-size: 1.4em
+      color: whitesmoke
+      
+
+  
+@media (max-width: 986px) 
+
+  .biglogo 
+    
+    
+    font-family: 'Roboto', sans-serif
+
+    .idea
+      font-size: 3em 
+      color: whitesmoke
+      font-weight: bold
+      
+
+    .catchphrase 
+      font-size: 1em
+      color: white
+
+    .fund 
+      font-size: 0.8em
       color: whitesmoke
           
 

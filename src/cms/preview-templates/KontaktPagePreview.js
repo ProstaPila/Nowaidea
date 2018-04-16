@@ -8,6 +8,7 @@ const KontaktPagePreview = ({ entry, widgetFor }) => (
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
     postPath={entry.getIn(['data', 'slug'])}
+    slug={entry.getIn(['fields', 'slug'])}
     description={entry.getIn(['data', 'description'])}
     helmet={entry.getIn(['data', 'title'])}
     postNode={{

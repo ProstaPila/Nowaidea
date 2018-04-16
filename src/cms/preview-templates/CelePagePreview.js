@@ -6,6 +6,7 @@ const CelePagePreview = ({ entry, widgetFor }) => (
   <CelePageTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
+    slug={entry.getIn(['fields', 'slug'])}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
     postPath={entry.getIn(['data', 'slug'])}
     description={entry.getIn(['data', 'description'])}
