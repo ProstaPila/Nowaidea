@@ -4,6 +4,7 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
+import config from "../../data/SiteConfig";
 
 export const ProjektPostTemplate = ({
   content,
