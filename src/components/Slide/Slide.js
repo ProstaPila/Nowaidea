@@ -1,23 +1,24 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import Link from 'gatsby-link'
+import './Slide.sass'
 
 const Slide = (props) => (
 <div key={props.myKey}
 className="myslide"
-style={{padding: '2em 4em' }}
+style={{padding: '2em 1em',margin: '20px', backgroundImage: "url(" + props.thumbnail + ")"}}
+
 
 >
-<p>
-  <Link className="has-text-primary" to={props.slug}>
-  <img src={props.thumbnail} alt={props.description} />
-    {props.title}
+
+  <Link className="slider_title" to={props.slug}>
+      {props.title}
   </Link>
-  <span> &bull; </span>
   
+  <p>
   <small>{props.date}</small>
 </p>
-<p>
+<p className="slider_description">
   {props.excerpt}
   <br />
   <br />

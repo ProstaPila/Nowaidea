@@ -12,7 +12,23 @@ $primary-invert: $kaldi-red-invert
 .logoicon
   overflow: visible
 
-   
+.alice-carousel__prev-btn-item, 
+.alice-carousel__next-btn-item,
+.alice-carousel__prev-btn-item:hover, 
+.alice-carousel__next-btn-item:hover, 
+  border: 0
+
+@media (min-width:986px)
+  .alice-carousel__prev-btn-item
+    margin-left: -30px
+  .alice-carousel__next-btn-item
+    margin-right: -30px
+
+
+.alice-carousel 
+   padding: 15px 
+
+
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -49,6 +65,7 @@ $primary-invert: $kaldi-red-invert
    
    background: url('../img/background.jpg')
    background-size: cover
+   background-color: #0188b5
 
 .mytitle
   padding-top: 2em 

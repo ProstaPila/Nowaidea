@@ -28,7 +28,7 @@ export default class IndexPage extends React.Component {
         items: 1
       },
       600: {
-        items: 3
+        items: 2
       },
       1024: {
         items: 3
@@ -53,7 +53,7 @@ export default class IndexPage extends React.Component {
       <div>
       
 
-      <section className="hero is-success is-fullheight myhero">
+      <section className="hero is-fullheight myhero">
       <div className="hero-body">
     <div className="container has-text-centered">
     <div className="biglogo">
@@ -78,10 +78,10 @@ export default class IndexPage extends React.Component {
           </div>
           </div>
           </div>
-          </div>
-          </section>
-          <section className="section">
-          <div className="container">
+          
+          
+          <div className="columns">
+           
           <Slider
           
         fadeOutAnimation={true}
@@ -94,7 +94,7 @@ export default class IndexPage extends React.Component {
 
           {Slides}
             </Slider>
-        </div>
+       </div></div>
         </section>
 
       
