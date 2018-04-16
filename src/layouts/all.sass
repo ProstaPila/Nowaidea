@@ -27,15 +27,16 @@ $primary-invert: $kaldi-red-invert
 
   .navbar.is-fixed-top
     .navbar-menu
-      height: 80%
+      height: 70%
       margin-top: 15px
+      transition: transform 0.3s ease-out
       
-
+    
     
     
 
   .navbar-start
-    height: 80% 
+    height: 70% 
     display: flex
     flex-direction: column
     justify-content: space-evenly
@@ -43,18 +44,13 @@ $primary-invert: $kaldi-red-invert
     background: white
     width: 100%
     margin-top: -10px
+    transition: transform 0.3s ease-out;
     
+  .navbar-start.is-close
+    transform: translateX(100%)
 
-  .navbar-start.is-active
-    height: 80% 
-    display: flex
-    flex-direction: column
-    justify-content: space-evenly
-    position: fixed
-    background: white
-    width: 100%
-    margin-top: -10px
-    
+  .navbar-start.is-active,
+    transform: translateX(0)
 
 @media (min-width:986px)
   .navbar

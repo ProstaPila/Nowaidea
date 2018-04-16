@@ -17,8 +17,10 @@ class Navbar extends Component {
   render(){
   
     let css = "";
+    let trans = "is-close"
     if(this.state.active) {
-      css ="is-active"
+      css = "is-active"
+      trans = "is-active"
     }
 
   return(
@@ -34,7 +36,7 @@ class Navbar extends Component {
         
       </div>
       <div className={['navbar-menu', css].join(" ")} id='navMenu'>
-      <div className={['navbar-start', css].join(" ")}>
+      <div className={['navbar-start', trans].join(" ")}>
       
        
       <Link className="navbar-item" to="/"  onClick={this.closeNav.bind(this)}>
