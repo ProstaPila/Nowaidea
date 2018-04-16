@@ -10,6 +10,7 @@ const ProjektPostPreview = ({ entry, widgetFor }) => (
     title={entry.getIn(['data', 'title'])}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
     slug={entry.getIn(['data', 'slug' ])}
+    helmet={entry.getIn(['data', 'title'])}
     postNode={{
       frontmatter: {
         description: entry.getIn(['data', 'description']),
