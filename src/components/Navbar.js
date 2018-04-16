@@ -3,12 +3,18 @@ import Link from 'gatsby-link'
 import logo from '../img/logosmall.png'
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
+  <nav className='navbar is-fixed-top' aria-label='main navigation'>
     <div className="container">
       <div className="navbar-brand">
+     
         
       </div>
       <div className="navbar-start">
+      <button className='button navbar-burger' data-target='navMenu'>
+          <span />
+          <span />
+          <span />
+        </button>
       <Link className="navbar-item" to="/">
           Strona Głowna
         </Link>

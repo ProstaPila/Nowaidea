@@ -14,7 +14,8 @@ export const ProjektPostTemplate = ({
   title,
   helmet,
   thumbnail,
-  slug
+  slug,
+  date
 }) => {
   const PostContent = contentComponent || Content
 
@@ -22,7 +23,7 @@ export const ProjektPostTemplate = ({
     <div>
     {helmet}
     <section 
-  className="hero is-info is-small " style={{
+  className="hero is-info is-medium " style={{
     background: "url(" + thumbnail + ")",
     backgroundSize: "cover",
     backgroundPosition: "bottom"
@@ -45,13 +46,12 @@ export const ProjektPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
+          
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
+                <p>{date}</p>
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
@@ -90,6 +90,8 @@ const ProjektPost = ({ data }) => {
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
       slug={post.fields.slug}
+      thumbnail={post.frontmatter.thumbnail}
+      date={post.frontmatter.date}
     />
   )
 }
