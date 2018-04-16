@@ -1,10 +1,11 @@
 ---
 templateKey: ofundacji-page
 title: O fundacji
-thumbnail: /img/logo.png
-description: Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.
+thumbnail: /img/background.jpg
+description: >-
+ Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.
 ---
-Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.
+**Fundacja Idea Nova powstała w celu kreowania i wspierania nowych idei. Szczególnie skupiamy się na realizacji projektów społecznych, które pozytywnie wpłyną na jakość życia w przestrzeni publicznej, przyczyniają się do upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu codziennym.**
 
 Podejmujemy wspólnie z przedstawicielami świata nauki, kultury, biznesu i polityki działania, których celem jest znalezienie wizji tożsamości polskiej i współczesnego patriotyzmu w nowym wieku, podkreślenie korelacji pomiędzy planami życiowymi poszczególnych jednostek, a projektami wzmacniającymi pozycję państwa i społeczeństwa, uwypuklenie obszaru, który w życiu wielu ludzi jest ważny, a zarazem wspólny z innymi. Korzystając z dorobku naszych przodków warto na nowo wyrazić aspiracje i marzenia współczesnych pokoleń w sposób przystępny i możliwy do identyfikacji dla ogółu społeczeństwa.
 

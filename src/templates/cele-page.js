@@ -6,12 +6,31 @@ import Content, { HTMLContent } from '../components/Content'
 import SEO from '../components/SEO/seo';
 import config from "../../data/SiteConfig";
 
-export const CelePageTemplate = ({ title, content, contentComponent, slug, postNode }) => {
+export const CelePageTemplate = ({ title, content, contentComponent, slug, postNode, thumbnail, description, helmet }) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
+      {helmet}
     <SEO postPath={slug} postNode={postNode} postSEO />
+    <section 
+  className="hero is-info is-small " style={{
+    background: "url(" + thumbnail + ")",
+    backgroundSize: "cover",
+    backgroundPosition: "bottom"
+      }}>
+  <div className="hero-body">
+    <div className="container">
+      <div className="columns">
+           <div className="column"> 
+            <div className="mytitle">
+              {title}
+              </div>
+          </div>
+  </div>
+  </div>
+  </div>
+</section>
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
@@ -49,6 +68,9 @@ const CelePage = ({ data }) => {
       postNode={data.markdownRemark}
       content={post.html}
       slug={post.fields.slug}
+      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
+      description={post.frontmatter.description}
+      thumbnail={post.frontmatter.thumbnail}
     />
   )
 }

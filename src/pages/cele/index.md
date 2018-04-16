@@ -1,7 +1,7 @@
 ---
 templateKey: cele-page
 title: Cele
-thumbnail: /img/logosmall.png
+thumbnail: /img/background.jpg
 description: >-
   Celem Fundacji jest popieranie wszechstronnego rozwoju społeczeństwa
   polskiego, a zwłaszcza działalności społecznej, informacyjnej, kulturalnej,

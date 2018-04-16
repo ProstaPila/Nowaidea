@@ -12,12 +12,35 @@ export const ProjektPostTemplate = ({
   tags,
   title,
   helmet,
+  thumbnail,
+  slug
 }) => {
   const PostContent = contentComponent || Content
 
   return (
+    <div>
+    {helmet}
+    <section 
+  className="hero is-info is-small " style={{
+    background: "url(" + thumbnail + ")",
+    backgroundSize: "cover",
+    backgroundPosition: "bottom"
+      }}>
+  <div className="hero-body">
+    <div className="container">
+      <div className="columns">
+           <div className="column"> 
+            <div className="mytitle">
+              {title}
+              </div>
+          </div>
+  </div>
+  </div>
+  </div>
+</section>
     <section className="section">
-      {helmet || ''}
+      
+    
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -42,6 +65,7 @@ export const ProjektPostTemplate = ({
         </div>
       </div>
     </section>
+    </div>
   )
 }
 
@@ -61,9 +85,10 @@ const ProjektPost = ({ data }) => {
       content={post.html}
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
-      helmet={<Helmet title={`${post.frontmatter.title} | Projekt`} />}
+      helmet={<Helmet title={`${post.frontmatter.title} | ${config.siteTitle}`}/>}
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
+      slug={post.fields.slug}
     />
   )
 }
@@ -81,6 +106,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+            slug
+          }
       frontmatter {
         date(formatString: "MMMM DD, YYYY", locale: "pl")
         title

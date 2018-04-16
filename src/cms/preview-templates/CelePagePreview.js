@@ -10,6 +10,7 @@ const CelePagePreview = ({ entry, widgetFor }) => (
     postPath={entry.getIn(['data', 'slug'])}
     cover={entry.getIn(['data', 'cover' ])}
     description={entry.getIn(['data', 'description'])}
+    helmet={entry.getIn(['data', 'title'])}
     postNode={{
       frontmatter: {
         description: entry.getIn(['data', 'description']),
