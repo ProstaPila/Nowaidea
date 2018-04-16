@@ -2,6 +2,7 @@
 templateKey: projekt-post
 title: JAN JAŹWIŃSKI
 date: 2016-12-17T15:04:10.000Z
+thumbnail: /img/logo.png
 description: >-
   Projekt poświęcony pamięci Jana Jaźwińskiego.
 
