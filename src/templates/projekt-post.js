@@ -22,6 +22,7 @@ export const ProjektPostTemplate = ({
   return (
     <div>
     {helmet}
+    <SEO postPath={slug} postNode={postNode} postSEO />
     <section 
   className="hero is-info is-medium " style={{
     background: "url(" + thumbnail + ")",
@@ -94,6 +95,8 @@ const ProjektPost = ({ data }) => {
       slug={post.fields.slug}
       thumbnail={post.frontmatter.thumbnail}
       date={post.frontmatter.date}
+      postNode={post.frontmatter}
+      postPath={post.fields.slug}
     />
   )
 }

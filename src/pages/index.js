@@ -1,8 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
-import Slider from "react-alice-carousel";
+import Slider from "react-alice-carousel"
+import config from "../../data/SiteConfig";
 import Slide from '../components/Slide/Slide'
+
 export default class IndexPage extends React.Component {
   state = {
     currentIndex:0,
@@ -50,7 +53,24 @@ export default class IndexPage extends React.Component {
       )
 
     return (
+      
+
       <div>
+      <Helmet>
+      <title> Jan Śpiewak | Oficjalna strona internetowa </title>
+      <meta property="og:url"                content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta property="og:type"               content="website" />
+      <meta property="og:title"              content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta property="og:description"        content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta property="og:image"              content={config.siteLogo} />
+
+      <meta name="twitter:title" content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta name="twitter:description" content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta property="og:description"  content="Fundacja Idea Nowa, racjonalni idealisci" />
+      <meta name="twitter:image" content={config.siteUrl} />
+      <meta name="twitter:card" content="summary_large_image" />
+
+</Helmet>
       
 
       <section className="hero is-fullheight myhero">
