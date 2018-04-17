@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
 import config from "../../data/SiteConfig";
+import SEO from '../components/SEO/seo';
 
 export const ProjektPostTemplate = ({
   content,
