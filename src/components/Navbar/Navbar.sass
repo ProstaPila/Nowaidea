@@ -1,0 +1,36 @@
+@media (max-width: 986px)
+  .navbar
+    background: transparent !important
+    .container 
+      height: 100%
+      padding: 20px
+
+  .navbar.is-fixed-top
+    .navbar-menu
+      height: 70%
+      margin-top: 15px
+      transition: transform 0.3s ease-out
+      
+    
+  .navbar-start
+    height: 70% 
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    position: fixed
+    background: white
+    width: 100%
+    transition: transform 0.3s ease-out
+
+  .navbar-end
+      display: flex
+    
+  .navbar-start.is-close
+    transform: translateX(100%)
+
+  .navbar-start.is-active,
+    transform: translateX(0)
+
+@media (min-width:986px)
+  .navbar
+    background: white

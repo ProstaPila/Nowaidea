@@ -6,7 +6,6 @@
 $spaceout-blue: #363636
 $spaceout-invert: #fff
 $spaceout-border: rgba(70, 87, 152, 0.3)
-$footer: #006691
 $primary: $spaceout-blue
 $primary-invert: $spaceout-invert
 
@@ -20,43 +19,11 @@ $primary-invert: $spaceout-invert
 .alice-carousel__next-btn-item:hover, 
   border: 0
 
-@media (max-width: 986px)
-  .navbar
-    background: transparent !important
-    .container 
-      height: 100%
-      padding: 20px
-
-  .navbar.is-fixed-top
-    .navbar-menu
-      height: 70%
-      margin-top: 15px
-      transition: transform 0.3s ease-out
-      
-    
-    
-    
-
-  .navbar-start
-    height: 70% 
-    display: flex
-    flex-direction: column
-    justify-content: space-evenly
-    position: fixed
-    background: white
-    width: 100%
-    margin-top: -10px
-    transition: transform 0.3s ease-out;
-    
-  .navbar-start.is-close
-    transform: translateX(100%)
-
-  .navbar-start.is-active,
-    transform: translateX(0)
-
 @media (min-width:986px)
-  .navbar
-    background: white
+  .container.has-text-centered 
+    border: 1px solid whitesmoke
+    padding: 2em 4em
+
   .alice-carousel__prev-btn-item
     margin-left: -30px
   .alice-carousel__next-btn-item
@@ -106,34 +73,20 @@ $primary-invert: $spaceout-invert
    background: url('../img/background.jpg')
    background-size: cover
    background-color: #0188b5
+   border: 5px solid white
 
 .mytitle
   padding-top: 2em 
   font-size: 5em
   color: whitesmoke
 
-footer
-  padding: 4em 0
-  background-color: $footer
-  .logofoot
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: flex-end
-  .menu
-    display: flex
-    flex-direction: column
 
-  a
-   color: whitesmoke
-   font-size: 1em
-  
-  p
-    color: whitesmoke
-    font-size: 0.8em
   
 
 @media (min-width: 986px)
+  section.hero.is-info.is-small 
+    border: 5px solid white
+
   .mycontent
     padding: 2em 4em
     border: 1px solid $spaceout-border

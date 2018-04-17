@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import logo from '../img/logosmall.png'
+import logo from '../../img/logosmall.png'
+import fb from '../../img/fb.svg'
+import twitter from '../../img/twitter.svg'
+import './Navbar.sass'
 
 class Navbar extends Component {
  
@@ -56,7 +59,17 @@ class Navbar extends Component {
         </Link>
       </div>
       <div className="navbar-end">
-      </div>
+        <a href="#" className="navbar-item" >
+        <figure className="image is-24x24">
+        <img src={fb} alt="Fundacja Nowa Idea Facebook" />
+        </figure>
+        </a>
+        <a href="#" className="navbar-item" >
+        <figure className="image is-24x24">
+        <img src={twitter} alt="Fundacja Nowa Idea Facebook" />
+        </figure>
+        </a>
+             </div>
        </div>
       </div>
     

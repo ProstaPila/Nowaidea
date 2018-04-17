@@ -6,10 +6,13 @@ import './Slide.sass'
 const Slide = (props) => (
 <div key={props.myKey}
 className="myslide"
-style={{padding: '2em 1em',margin: '20px', backgroundImage: "url(" + props.thumbnail + ")"}}
+style={{padding: '2em 1em',margin: '20px'}}
 
 
 >
+  <figure className="image is-256x256">
+    <img src={props.thumbnail} alt={props.excerpt} />
+  </figure>
 
   <Link className="slider_title" to={props.slug}>
       {props.title}
