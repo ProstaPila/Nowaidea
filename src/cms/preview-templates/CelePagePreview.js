@@ -18,13 +18,13 @@ const CelePagePreview = ({ entry, widgetFor, getAsset }) => {
       frontmatter: {
         description: {description},
         title: {title},
-        thumbnail: {thumbnail})   
-
-      }
+        thumbnail: {thumbnail}   
+     }
       
 
       }}
   />
+}
 
 
 CelePagePreview.propTypes = {
