@@ -2,17 +2,35 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 
+
 export default class ProjektyPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: projekt } = data.allMarkdownRemark
     console.log(projekt)
     return (
+      <div>
+      <section 
+        className="hero is-info is-small " style={{
+        background: "url(" + thumbnail + ")",
+        backgroundSize: "cover",
+        backgroundPosition: "bottom"
+      }}>
+  <div className="hero-body">
+    <div className="container">
+      <div className="columns">
+           <div className="column"> 
+            <div className="mytitle">
+            Nasze Projekty
+              </div>
+          </div>
+  </div>
+  </div>
+  </div>
+</section>
       <section className="section">
         <div className="container">
-          <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Nasze Projekty</h1>
-          </div>
+          
           {projekt
             .filter(projekt => projekt.node.frontmatter.templateKey === 'projekt-post')
             .map(({ node: projekt }) => (
@@ -40,6 +58,7 @@ export default class ProjektyPage extends React.Component {
             ))}
         </div>
       </section>
+      </div>
     )
   }
 }

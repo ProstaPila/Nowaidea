@@ -57,7 +57,7 @@ export default class IndexPage extends React.Component {
 
       <div>
       <Helmet>
-      <title> Jan Śpiewak | Oficjalna strona internetowa </title>
+      <title> Fundacja Idea Nowa | Racjonalni Idealisci </title>
       <meta property="og:url"                content="Fundacja Idea Nowa, racjonalni idealisci" />
       <meta property="og:type"               content="website" />
       <meta property="og:title"              content="Fundacja Idea Nowa, racjonalni idealisci" />

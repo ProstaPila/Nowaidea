@@ -16,7 +16,9 @@ export const ProjektPostTemplate = ({
   helmet,
   thumbnail,
   slug,
-  date
+  date,
+  postNode,
+  postPath
 }) => {
   const PostContent = contentComponent || Content
 
