@@ -3,28 +3,27 @@ import PropTypes from 'prop-types'
 import { CelePageTemplate } from '../../templates/cele-page'
 import '../../layouts/all.sass'
 
-const CelePagePreview = ({ entry, widgetFor, getAsset }) => {
-  const data = entry.get('data').toJS();
-  const { title, content, slug, thumbnail, postPath, decription, helmet, postNode } = data;
-  return <CelePageTemplate
-    title={title}
-    content={content}
-    slug={slug}
-    thumbnail={thumbnail}
-    postPath={postPath}
-    description={description}
-    helmet={helmet}
+const CelePagePreview = ({ entry, widgetFor }) => (
+  <KontaktPageTemplate
+  title={entry.getIn(['data', 'title'])}
+    content={widgetFor('body')}
+    thumbnail={entry.getIn(['data', 'thumbnail' ])}
+    postPath={entry.getIn(['data', 'slug'])}
+    slug={entry.getIn(['fields', 'slug'])}
+    description={entry.getIn(['data', 'description'])}
+    helmet={entry.getIn(['data', 'title'])}
     postNode={{
       frontmatter: {
-        description: {description},
-        title: {title},
-        thumbnail: {thumbnail}   
-     }
+        description: entry.getIn(['data', 'description']),
+        tags: entry.getIn(['data', 'tags']),
+        title: entry.getIn(['data', 'title']),
+        thumbnail: entry.getIn(['data', 'thumbnail' ])  
+      }
       
 
       }}
   />
-}
+)
 
 
 CelePagePreview.propTypes = {
