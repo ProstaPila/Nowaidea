@@ -6,6 +6,6 @@ import KontaktPagePreview from './preview-templates/KontaktPagePreview'
 
 CMS.registerPreviewStyle('/styles.css')
 CMS.registerPreviewTemplate('ofundacji', OfundacjiPagePreview)
-CMS.registerPreviewTemplate('projket', ProjektPostPreview)
+CMS.registerPreviewTemplate('projekt', ProjektPostPreview)
 CMS.registerPreviewTemplate('cele', CelePagePreview)
 CMS.registerPreviewTemplate('kontakt', KontaktPagePreview)
