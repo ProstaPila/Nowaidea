@@ -11,7 +11,7 @@ const CelePagePreview = ({ entry, widgetFor, getAsset }) => {
     content={content}
     slug={slug}
     thumbnail={thumbnail}
-    postPath={postPatg}
+    postPath={postPath}
     description={description}
     helmet={helmet}
     postNode={postNode}
