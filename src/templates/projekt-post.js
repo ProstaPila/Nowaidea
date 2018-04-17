@@ -98,7 +98,7 @@ const ProjektPost = ({ data }) => {
       slug={post.fields.slug}
       thumbnail={post.frontmatter.thumbnail}
       date={post.frontmatter.date}
-      postNode={post.frontmatter}
+      postNode={post}
       postPath={post.fields.slug}
     />
   )
