@@ -18,7 +18,9 @@ const ProjektPostPreview = ({ entry, widgetFor }) => (
         description: entry.getIn(['data', 'description']),
         tags: entry.getIn(['data', 'tags']),
         title: entry.getIn(['data', 'title']),
-        thumbnail: entry.getIn(['data', 'thumbnail' ])   
+        thumbnail: entry.getIn(['data', 'thumbnail' ]),
+        date: entry.getIn(['data', 'date']),
+           
 
       }
       

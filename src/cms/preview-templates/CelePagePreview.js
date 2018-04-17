@@ -4,7 +4,7 @@ import { CelePageTemplate } from '../../templates/cele-page'
 import '../../layouts/all.sass'
 
 const CelePagePreview = ({ entry, widgetFor }) => (
-  <KontaktPageTemplate
+  <CelePageTemplate
   title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     thumbnail={entry.getIn(['data', 'thumbnail' ])}
