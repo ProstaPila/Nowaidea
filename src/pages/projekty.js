@@ -8,7 +8,7 @@ export default class ProjektyPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: projekt } = data.allMarkdownRemark
-    console.log(projekt)
+    
     return (
       <div>
       <section 
