@@ -11,12 +11,21 @@ const CelePagePreview = ({ entry, widgetFor, getAsset }) => {
     content={content}
     slug={slug}
     thumbnail={thumbnail}
-    postPath={postPath}
+    postPath={postPatg}
     description={description}
     helmet={helmet}
-    postNode={postNode}
+    postNode={{
+      frontmatter: {
+        description: {description},
+        title: {title},
+        thumbnail: {thumbnail})   
+
+      }
+      
+
+      }}
   />
-}
+
 
 CelePagePreview.propTypes = {
   entry: PropTypes.shape({
