@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
+import thumbnail from '../img/background.jpg'
 
 
 export default class ProjektyPage extends React.Component {
