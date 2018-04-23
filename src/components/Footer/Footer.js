@@ -20,9 +20,9 @@ const Footer = () => (
           </figure>
         </Link>
 
-         <p>IDEA NOWA<br />
-      ul. Armii Krajowej<br />
-      137A/12 81-824 Sopot</p>
+         <p>NOWA IDEA<br />
+         ul. Jesionowa 11/7<br />
+         80-261 Gdańsk </p>
 
         </div>
         </div>
@@ -42,9 +42,9 @@ const Footer = () => (
 
         
         
-        <a href="mailto:fundacja@ideanova.pl" className="navbar-item" >
+        <a href="mailto:fundacja@nowaidea.org.pl" className="navbar-item" >
           <figure className="image is-24x24">
-            <img src={mail} alt="Fundacja Idea Nowa"  />
+            <img src={mail} alt="Fundacja Nowa Idea"  />
           </figure>
         </a>
         
