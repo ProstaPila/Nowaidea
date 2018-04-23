@@ -33,7 +33,7 @@ const Footer = () => (
        
         <p><a href="tel:583418894"><b>tel:</b> 583 418 894 </a> <br />
         <a href="tel:501761361"><b>kom:</b> 501 761 361</a><br />  
-        <a href="mailto:fundacja@ideanova.pl"><b>e-mail:</b> fundacja@ideanova.pl</a></p>
+        <a href="mailto:fundacja@nowaidea.org.pl"><b>e-mail:</b> fundacja@nowaidea.org.pl</a></p>
          </div> 
       </div>
       <div className="column">

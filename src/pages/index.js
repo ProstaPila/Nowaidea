@@ -5,7 +5,6 @@ import Link from 'gatsby-link'
 import Slider from "react-alice-carousel"
 import config from "../../data/SiteConfig"
 import Slide from '../components/Slide/Slide'
-import BgImage from '../components/BgImage/BgImage'
 
 export default class IndexPage extends React.Component {
   state = {
@@ -75,7 +74,6 @@ export default class IndexPage extends React.Component {
       
 
       <section className="hero is-fullheight myhero">
-      <BgImage dataSizes={data.imageSharp.sizes} />
       <div className="hero-body">
     <div className="container has-text-centered">
     <div className="biglogo">
