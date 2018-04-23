@@ -59,16 +59,7 @@ class Navbar extends Component {
         </Link>
       </div>
       <div className="navbar-end">
-        <a href="#" className="navbar-item" >
-        <figure className="image is-24x24">
-        <img src={fb} alt="Fundacja Nowa Idea Facebook" />
-        </figure>
-        </a>
-        <a href="#" className="navbar-item" >
-        <figure className="image is-24x24">
-        <img src={twitter} alt="Fundacja Nowa Idea Facebook" />
-        </figure>
-        </a>
+        
              </div>
        </div>
       </div>

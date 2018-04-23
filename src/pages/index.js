@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Slider from "react-alice-carousel"
-import config from "../../data/SiteConfig";
+import config from "../../data/SiteConfig"
 import Slide from '../components/Slide/Slide'
+import BgImage from '../components/BgImage/BgImage'
 
 export default class IndexPage extends React.Component {
   state = {
@@ -57,7 +58,7 @@ export default class IndexPage extends React.Component {
 
       <div>
       <Helmet>
-      <title> Fundacja Idea Nowa | Racjonalni Idealisci </title>
+      <title> Fundacja Nowa Idea | Racjonalni Idealisci </title>
       <meta property="og:url"                content="Fundacja Idea Nowa, racjonalni idealisci" />
       <meta property="og:type"               content="website" />
       <meta property="og:title"              content="Fundacja Idea Nowa, racjonalni idealisci" />
@@ -74,11 +75,12 @@ export default class IndexPage extends React.Component {
       
 
       <section className="hero is-fullheight myhero">
+      <BgImage dataSizes={data.imageSharp.sizes} />
       <div className="hero-body">
     <div className="container has-text-centered">
     <div className="biglogo">
               <div className="fund">Fundacja:</div>
-              <div className="idea">IDEA<br></br>NOWA</div>
+              <div className="idea">NOWA<br></br>IDEA</div>
               <div className="catchphrase">Idealni Racjonaliści</div>
             </div>
     </div>
@@ -199,24 +201,52 @@ IndexPage.propTypes = {
 }
 
 export const pageQuery = graphql`
-  query IndexQuery {
+query IndexQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
+      
+        
         node {
+          
           excerpt(pruneLength: 400)
           id
+          children {
+            id
+            parent {
+              id
+            }
+            
+            
+          }
           fields {
             slug
           }
           frontmatter {
+            
             title
             thumbnail
             description
             templateKey
             date(formatString: "MMMM DD, YYYY", locale: "pl")
+            
           }
         }
       }
     }
+   
+  
+    imageSharp (id: {regex: "/background.jpg/"}) {
+    id
+    children {
+      id
+    }
+    sizes(maxWidth: 1920, quality: 90, traceSVG: { color: "#3ba3d4" })  {
+    	...GatsbyImageSharpSizes_tracedSVG
+    }
+    
+          
+          
+        
   }
+}
 `
