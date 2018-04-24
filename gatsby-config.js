@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Fundacja Idea Nowa',
+    siteUrl: `https://ideanowa.org.pl`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -51,5 +52,8 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`
+    }
   ],
 }
