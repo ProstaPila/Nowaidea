@@ -3,7 +3,7 @@ module.exports = {
   siteTitle: "Fundacja Nowa Idea | racjonalni idealiści ", // Site title.
   siteTitleAlt: "Fundacja Nowa Idea | racjonalni idealiści ", // Alternative site title for SEO.
   siteLogo: "static/img/logosmall.png", // Logo used for SEO and manifest.
-  siteUrl: "https://ideanowa.netlify.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://ideanowa.org.pl", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Fundacja Idea Nowa", // Website description used for RSS feeds/meta description tag.
   postDefaultCategoryID: "Social", // Default category for posts.
