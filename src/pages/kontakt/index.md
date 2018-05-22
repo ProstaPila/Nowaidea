@@ -9,7 +9,7 @@ description: >-
   upowszechnienia podstawowych zasad kultury i zwykłej przyzwoitości w życiu
   codziennym.
 ---
-**IDEA NOWA**\
+**NOWA IDEA**\
 **ul. Jesionowa 11/7,**\
 **80-261 Gdańsk**
 
