@@ -9,6 +9,8 @@ $spaceout-border: rgba(70, 87, 152, 0.3)
 $primary: $spaceout-blue
 $primary-invert: $spaceout-invert
 
+body
+  overflow: hidden
 
 .logoicon
   overflow: visible
@@ -75,15 +77,16 @@ $primary-invert: $spaceout-invert
    background-color: #0188b5
    border: 5px solid white
 
-.mytitle
-  padding-top: 2em 
-  font-size: 5em
-  color: whitesmoke
 
 
   
 
 @media (min-width: 986px)
+  .mytitle
+    padding-top: 2em 
+    font-size: 5em
+    color: whitesmoke
+
   section.hero.is-info.is-small 
     border: 5px solid white
 
@@ -118,6 +121,10 @@ $primary-invert: $spaceout-invert
 
   
 @media (max-width: 986px) 
+  .mytitle
+    padding-top: 2em 
+    font-size: 2.5em
+    color: whitesmoke
 
   .biglogo 
     

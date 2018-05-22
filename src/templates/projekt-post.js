@@ -28,9 +28,9 @@ export const ProjektPostTemplate = ({
     <SEO postPath={slug} postNode={postNode} postSEO />
     <section 
   className="hero is-info is-medium " style={{
-    background: "url(" + thumbnail + ")",
+    backgroundImage: "url(" + thumbnail + ")",
     backgroundSize: "cover",
-    backgroundPosition: "bottom"
+    backgroundPosition: "0px 30px"
       }}>
   <div className="hero-body">
     <div className="container">
