@@ -7,9 +7,7 @@ description: Projekt dotyczący problemu reprywatyzacji w Polsce.
 tags:
   - Reprywatyzacja
 ---
-## Problem reprywatyzacji w Polsce i sposób jego rozwiązania dotyka podstawowych
-zmiennych dotyczących fundamentów, na jakich zbudowana jest dzisiejsza Rzeczpospolita. **Dlatego chcemy zaproponować rozwiązania, które uwzględnią wpływ rozstrzygnięć geopolitycznych po II Wojnie Światowej i po 1989 r., uwzględnią
-większość pokrzywdzonych działaniami okupantów i władz Państwa Polskiego po
+## Problem reprywatyzacji w Polsce i sposób jego rozwiązania dotyka podstawowych zmiennych dotyczących fundamentów, na jakich zbudowana jest dzisiejsza Rzeczpospolita. **Dlatego chcemy zaproponować rozwiązania, które uwzględnią wpływ rozstrzygnięć geopolitycznych po II Wojnie Światowej i po 1989 r., uwzględnią większość pokrzywdzonych działaniami okupantów i władz Państwa Polskiego po
 1939 r.** 
 
 W sposób szczególny zajmujemy się sposobem określania realnej wartości
