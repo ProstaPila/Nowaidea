@@ -2,7 +2,7 @@
 templateKey: projekt-post
 title: Noc Niepodległości
 date: 2017-01-04T15:04:10.000Z
-thumbnail: /img/background.jpg
+thumbnail: /img/noc.png
 description: Zapraszamy do wspólnej zabawy z okazji Święta Niepodległości!
 tags:
   - Noc Niepodległosci
