@@ -2,7 +2,7 @@
 templateKey: projekt-post
 title: Patriotka
 date: 2017-01-04T15:04:10.000Z
-thumbnail: /img/background.jpg
+thumbnail: /img/ptriotka.jpg
 description: Chcemy wypromować ciastko o nazwie Patriotka®
 tags:
   - Patriotka
@@ -11,7 +11,7 @@ tags:
 ---
 ## **W 2018 r. przypada setna rocznica odzyskania przez Polskę Niepodległości. Pragniemy, aby patriotka® stała się nieodłącznym, bardzo pozytywnym symbolem wszystkich uroczystości związanych z tą wyjątkową rocznicą.**
 
-**Pragniemy, aby podobnie jak pączek w tłusty czwartek, patriotka stała się  słodkim symbolem Święta Niepodległości, Trzeciego Maja, ale także innych świąt oraz wydarzeń o charakterze patriotycznym.**
+**Pragniemy, aby podobnie jak pączek w tłusty czwartek , patriotka stała się  słodkim symbolem Święta Niepodległości, Trzeciego Maja, ale także innych świąt oraz wydarzeń o charakterze patriotycznym.**
 
 Chcemy, aby patriotka® była elementem integrującym i umilającym celebrowanie polskich świąt państwowych, ale także, np. wydarzeń sportowych z udziałem polskiej reprezentacji, czy innych, które wzbudzają w Polakach poczucie narodowej dumy.
 
