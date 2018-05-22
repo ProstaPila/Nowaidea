@@ -79,7 +79,7 @@ export default class IndexPage extends React.Component {
     <div className="biglogo">
               <div className="fund">Fundacja:</div>
               <div className="idea">NOWA<br></br>IDEA</div>
-              <div className="catchphrase">Idealni Racjonaliści</div>
+              <div className="catchphrase">Racjonalni idealiści</div>
             </div>
     </div>
   </div> 
