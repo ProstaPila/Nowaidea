@@ -59,7 +59,7 @@ export default class IndexPage extends React.Component {
             <div>
                 <Helmet>
                     <title>
-                        Fundacja Nowa Idea | Racjonalni Idealisci
+                        Fundacja Nowa Idea | Racjonalni Idealiści
                     </title>
                     <meta property="og:url" content="Fundacja Idea Nowa, racjonalni idealisci"/>
                     <meta property="og:type" content="website"/>
@@ -87,7 +87,7 @@ export default class IndexPage extends React.Component {
                             <div className="biglogo">
                                 <div className="fund">Fundacja:</div>
                                 <div className="idea">NOWA<br></br>IDEA</div>
-                                <div className="catchphrase">Racjonalni idealici</div>
+                                <div className="catchphrase">Racjonalni idealiści</div>
                             </div>
                         </div>
                     </div>
