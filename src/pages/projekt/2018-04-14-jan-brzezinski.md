@@ -7,7 +7,7 @@ description: Projekt dotyczący problemu reprywatyzacji w Polsce.
 tags:
   - Reprywatyzacja
 ---
-## Problem reprywatyzacji w Polsce i sposób jego rozwiązania dotyka podstawowych zmiennych dotyczących fundamentów, na jakich zbudowana jest dzisiejsza Rzeczpospolita. Dlatego chcemy zaproponować rozwiązania, które uwzględnią wpływ rozstrzygnięć geopolitycznych po II Wojnie Światowej i po 1989 r., uwzględnią większość pokrzywdzonych działaniami okupantów i władz Państwa Polskiego po 1939 r. 
+## Problem reprywatyzacji w Polsce i sposób jego rozwiązania dotyka podstawowych zmiennych dotyczących fundamentów, na jakich zbudowana jest dzisiejsza Rzeczpospolita. Dlatego chcemy zaproponować rozwiązania, które uwzględnią wpływ rozstrzygnięć geopolitycznych po II Wojnie Światowej i po 1989 r., uwzględnią większość pokrzywdzonych działaniami okupantów i władz Państwa Polskiego po 1939 r.
 
 W sposób szczególny zajmujemy się sposobem określania realnej wartości
 szkody jaką doznali były właściciele w związku z zaborem ich mienia. Jakkolwiek w
@@ -28,11 +28,7 @@ krotnie wyższa niż realna wartość nieruchomości po wojnie zwaloryzowana na 
  dzisiejszy. Wadliwe rozwiązanie metodologiczne wynika z niezrozumienia procesów
  dotyczących zmian wartości praw majątkowych na przestrzeni ostatnich dziesięcioleci.
 
-**Dlatego w nowych regulacjach reprywatyzacyjnych należy przyjąć następujące założenia,
-**
-
-**które:
-**
+**Dlatego w nowych regulacjach reprywatyzacyjnych należy przyjąć następujące założenia, które: **
 
 * wskazują na **datę nacjonalizacji** jako właściwą dla ustalenia **poziomu cen i
   wartości** świadczeń za znacjonalizowane mienie z uwzględnieniem ich
