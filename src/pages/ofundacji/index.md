@@ -20,7 +20,8 @@ W ramach naszych działań aktualnie skupiamy się na trzech projektach:
 * PATRIOTKA  
 * NOC NIEPODLEGŁOŚCI 10/11
 * REPRYWATYZACJA 
-* 
+
+
 
 **Dane Fundacji:**\
 Numer w Krajowym Rejestrze Sądowym KRS: 0000441173\
