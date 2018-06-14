@@ -30,4 +30,4 @@ Chcemy pokazać, że ludzie pogodni, mogą być najzwyczajniej w świecie dumni 
 * **15 maja 2018 r. - wyłonienie finałowej dziesiątki przepisów;**
 * **25 maja 2018 r. - finał ogólnopolskiego konkursu na _Patriotkę 100-lecia_, który ponownie odbędzie się w Warsztacie Warszawskim przy pl. Konstytucji 4 w Warszawie.**
 
-Więcej informacji można uzyskać na stronie poświęconej konkursowi: **www.patriotka.org.pl**.
+Więcej informacji można uzyskać na stronie poświęconej konkursowi: [**www.patriotka.org.pl**.](https://patriotka.org.pl)
