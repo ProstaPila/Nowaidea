@@ -3,6 +3,7 @@ templateKey: projekt-post
 title: Reprywatyzacja
 date: 2018-06-14T10:00:47.317Z
 thumbnail: /img/reprywatyzacjaideanowa.png
+sliderthumbnail: /img/reprywatyzacjaideanowa.png
 description: Projekt dotyczący problemu reprywatyzacji w Polsce.
 tags:
   - Reprywatyzacja

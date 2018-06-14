@@ -3,6 +3,7 @@ templateKey: projekt-post
 title: Patriotka
 date: 2017-01-04T15:04:10.000Z
 thumbnail: /img/patriotka.png
+sliderthumbnail: /img/patriotka.png
 description: Biało - czerwone ciastko
 tags:
   - Patriotka

@@ -46,7 +46,7 @@ export default class IndexPage extends React.Component {
                 <div key={i + 1}><Slide
                     key={i}
                     myKey={post.fields.slug}
-                    thumbnail={post.frontmatter.thumbnail}
+                    thumbnail={post.frontmatter.sliderthumbnail}
                     title={post.frontmatter.title}
                     date={post.frontmatter.date}
                     excerpt={post.excerpt}
@@ -59,23 +59,23 @@ export default class IndexPage extends React.Component {
             <div>
                 <Helmet>
                     <title>
-                        Fundacja Nowa Idea | Racjonalni Idealiści
+                        Fundacja Nowa Idea
                     </title>
-                    <meta property="og:url" content="Fundacja Idea Nowa, racjonalni idealisci"/>
+                    <meta property="og:url" content="Fundacja Idea Nowa"/>
                     <meta property="og:type" content="website"/>
-                    <meta property="og:title" content="Fundacja Idea Nowa, racjonalni idealisci"/>
+                    <meta property="og:title" content="Fundacja Idea Nowa"/>
                     <meta
                         property="og:description"
-                        content="Fundacja Idea Nowa, racjonalni idealisci"/>
+                        content="Fundacja Idea Nowa"/>
                     <meta property="og:image" content={config.siteLogo}/>
 
-                    <meta name="twitter:title" content="Fundacja Idea Nowa, racjonalni idealisci"/>
+                    <meta name="twitter:title" content="Fundacja Idea Nowa"/>
                     <meta
                         name="twitter:description"
-                        content="Fundacja Idea Nowa, racjonalni idealisci"/>
+                        content="Fundacja Idea Nowa"/>
                     <meta
                         property="og:description"
-                        content="Fundacja Idea Nowa, racjonalni idealisci"/>
+                        content="Fundacja Idea Nowa"/>
                     <meta name="twitter:image" content={config.siteUrl}/>
                     <meta name="twitter:card" content="summary_large_image"/>
 
@@ -87,7 +87,7 @@ export default class IndexPage extends React.Component {
                             <div className="biglogo">
                                 <div className="fund">Fundacja:</div>
                                 <div className="idea">NOWA<br></br>IDEA</div>
-                                <div className="catchphrase">Racjonalni idealiści</div>
+                               
                             </div>
                         </div>
                     </div>
@@ -216,6 +216,7 @@ query IndexQuery {
             
             title
             thumbnail
+            sliderthumbnail
             description
             templateKey
             date(formatString: "MMMM DD, YYYY", locale: "pl")
