@@ -46,7 +46,7 @@ export default class IndexPage extends React.Component {
                 <div key={i + 1}><Slide
                     key={i}
                     myKey={post.fields.slug}
-                    thumbnail={post.frontmatter.slithumbnail}
+                    thumbnail={post.frontmatter.sliderthumbnail}
                     title={post.frontmatter.title}
                     date={post.frontmatter.date}
                     excerpt={post.excerpt}
