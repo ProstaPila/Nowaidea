@@ -65,9 +65,28 @@ module.exports = {
         background_color: "#f7f0eb",
         theme_color: "#038ebd",
         display: "standalone",
-        icon: "src/img/logo.png", // This path is relative to the root of the site.
+       
       },
     },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "src/img/logo.png",
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
+      }
+    },
+    
     `gatsby-plugin-offline`,
     
   ],
