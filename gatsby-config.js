@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: `https://ideanowa.org.pl`,
   },
   plugins: [
+    `gatsby-plugin-react-next`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -54,6 +55,20 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sitemap`
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "NowaIdea",
+        short_name: "NowaIdea",
+        start_url: "/",
+        background_color: "#f7f0eb",
+        theme_color: "#038ebd",
+        display: "standalone",
+        icon: "static/images/logo.png", // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-offline`,
+    
   ],
 }
